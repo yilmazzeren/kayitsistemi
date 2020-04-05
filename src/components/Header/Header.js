@@ -18,7 +18,7 @@ class Header extends Component {
       <header>
         <nav className="navbar navbar-expand-lg navbar-light container justify-content-between">
           <Link to="/" className="navbar-brand">
-            Kayıt Sistemi
+            KAYIT SİSTEMİ
           </Link>
           <button className="navbar-toggler" type="button" onClick={this.buttonClicked}>
             <span className="navbar-toggler-icon"></span>
@@ -27,17 +27,17 @@ class Header extends Component {
           <ul className="navbar-nav ">
             <li className="nav-item ">
               <Link to="/" className="nav-link">
-                Ana Sayfa
+                ANA SAYFA
               </Link>
             </li>
             <li className="nav-item ">
               <Link to="/hakkimizda" className="nav-link">
-                Hakkımızda
+                HAKKIMIZDA
               </Link>
             </li>
             <li className="nav-item ">
               <Link to="/iletisim" className="nav-link">
-                İletişim
+                İLETİŞİM
               </Link>
             </li>
           </ul>

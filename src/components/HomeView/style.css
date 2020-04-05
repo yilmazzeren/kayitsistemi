@@ -1,0 +1,58 @@
+.home-container {
+    background-image: url('../../images/image.jpg');
+    height: 500px;
+    background-size: cover;
+    padding-top: 60px;
+    border-bottom: 1px solid gray;
+}
+.title {
+    text-align: center;
+    color: #000 !important;
+    font-family: 'Lato', sans-serif;
+    margin-top: 100px ;
+}
+
+form {
+    width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    margin:50px auto 5px auto;
+}
+
+.btn-primary {
+    background-color: #C3EB78 !important;
+    border-color: transparent !important;
+    color: #495057 !important;
+}
+
+.btn-primary:hover {
+    background-color: #1C5253 !important;
+    color: #fff !important;
+    
+}
+
+.forgotPassword {
+    color: #1C5253 !important;
+    transition: all 0.2s ease-in;
+    font-family: 'Lato', sans-serif;
+}
+.forgotPassword:hover {
+    color:  rgb(159, 190, 100) !important;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 50px !important;
+}
+p a {
+    color: #1C5253 !important;
+    transition: all 0.2s ease-in;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+p a:hover {
+    color:  rgb(159, 190, 100) !important;
+    text-decoration: none;
+}
